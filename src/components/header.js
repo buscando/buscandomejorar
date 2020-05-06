@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types'
 import React from 'react'
+import Backgroundimg from './backgroundimg.js';
 
 import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
@@ -28,25 +28,27 @@ class Header extends React.Component {
   render() {
     return (
       <div>
-        <Navbar fixed="top" light expand="sm">
-          <div className="container">
-            <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
+      <Backgroundimg        
+        fileName="header_bg.jpg" 
+        bgTitle="Buscando Mejorar"
+        bgSubtitle="Sigue lo que te hace Feliz"     
+      >      
+      </Backgroundimg>         
+      <Navbar expand="sm">
+          <div class="navbar navbar-expand-lg navbar-light bg-light">
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav className="ml-auto" navbar>
+              <Nav>
                 <NavItem>
-                  <NavLink href="/team">Team</NavLink>
-                </NavItem>
+                  <NavLink href="/">INICIO</NavLink>
+                </NavItem>   
                 <NavItem>
-                  <NavLink href="/tags">Tags</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="/about">About</NavLink>
-                </NavItem>
+                  <NavLink href="/about">ACERCA DE MI</NavLink>
+                </NavItem>                             
               </Nav>
             </Collapse>
           </div>
-        </Navbar>
+      </Navbar>      
       </div>
     )
   }

@@ -11,8 +11,8 @@ const tagsPage = ({ pageContext }) => {
       <SEO title="All tags" keywords={['tags', 'topics']} />
       <ul>
         {tags.map(tag => (
-          <li key={tag} style={{ marginBottom: '10px' }}>
-            <Button color="primary" href={`/tag/${slugify(tag)}`}>
+          <li key={tag} style={{ marginBottom: '2px' }}>
+            <Button color="link" href={`/tag/${slugify(tag)}`} >
               {tag} <Badge color="light">{tagPostCounts[tag]}</Badge>
             </Button>
           </li>

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Code Blog`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Buscando Mejorar`,
+    description: `Blog.`,
     author: `@gatsbyjs`,
   },
   plugins: [
@@ -25,6 +25,17 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: 'Arizonia',
+            variants: [`400`, `700`]
+          },
+        ],
+      },
+    },       
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

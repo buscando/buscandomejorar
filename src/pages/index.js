@@ -1,42 +1,48 @@
 import React from 'react'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+//import SEO from '../components/seo'
 import { graphql, StaticQuery } from 'gatsby'
 import Post from '../components/Post'
 import PaginationLinks from '../components/PaginationLinks'
 
-const IndexPage = () => {
-  const postsPerPage = 2
+import { CardDeck } from 'reactstrap'
+
+const IndexPage = () => { 
+  const postsPerPage = 4
   let numberOfPages
-  return (
-    <Layout pageTitle="CodeBlog">
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-      <StaticQuery
-        query={indexQuery}
-        render={data => {
-          numberOfPages = Math.ceil(
-            data.allMarkdownRemark.totalCount / postsPerPage
-          )
-          return (
-            <div>
-              {data.allMarkdownRemark.edges.map(({ node }) => (
-                <Post
-                  key={node.id}
-                  title={node.frontmatter.title}
-                  slug={node.fields.slug}
-                  author={node.frontmatter.author}
-                  body={node.excerpt}
-                  date={node.frontmatter.date}
-                  fluid={node.frontmatter.image.childImageSharp.fluid}
-                  tags={node.frontmatter.tags}
-                />
-              ))}
-              <PaginationLinks currentPage={1} numberOfPages={numberOfPages} />
-            </div>
-          )
-        }}
-      />
-    </Layout>
+  return (   
+    <div >
+      <Layout location ="/"> 
+        <CardDeck style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>             
+        <StaticQuery
+          query={indexQuery}
+          render={data => {
+            numberOfPages = Math.ceil(
+              data.allMarkdownRemark.totalCount / postsPerPage
+            )
+            return (       
+              <>
+                {data.allMarkdownRemark.edges.map(({ node }) => (               
+                  <Post
+                    key={node.id}
+                    slug={node.fields.slug}
+                    author={node.frontmatter.author}
+                    body={node.excerpt}
+                    date={node.frontmatter.date}
+                    fluid={node.frontmatter.image.childImageSharp.fluid}
+                    tags={node.frontmatter.tags}
+                  />                  
+                ))}
+                <div className="container" style={{display: 'flex', justifyContent: 'flex-end'}}>
+                <PaginationLinks currentPage={1} numberOfPages={numberOfPages} />
+                </div>
+              </>
+            )
+          }}
+        />
+        </CardDeck>
+      </Layout>
+    </div>
   )
 }
 
@@ -44,7 +50,7 @@ const indexQuery = graphql`
   query indexQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 2
+      limit: 4
     ) {
       totalCount
       edges {

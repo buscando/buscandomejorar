@@ -4,13 +4,18 @@ import Post from '../components/Post'
 import { graphql } from 'gatsby'
 import PaginationLinks from '../components/PaginationLinks'
 
+import { CardDeck } from 'reactstrap'
+
 const postList = props => {
   const posts = props.data.allMarkdownRemark.edges
   const { currentPage, numberOfPages } = props.pageContext
 
   return (
     <Layout pageTitle={`Page: ${currentPage}`}>
+      <CardDeck  style={{display: 'flex', flexDirection: 'row' }}>
       {posts.map(({ node }) => (
+        <>
+        <p>TEST</p>        
         <Post
           key={node.id}
           slug={node.fields.slug}
@@ -21,7 +26,9 @@ const postList = props => {
           tags={node.frontmatter.tags}
           fluid={node.frontmatter.image.childImageSharp.fluid}
         />
+        </>
       ))}
+      </CardDeck>
       <PaginationLinks
         currentPage={currentPage}
         numberOfPages={numberOfPages}

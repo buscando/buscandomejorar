@@ -6,7 +6,7 @@ import { Badge, Card, CardBody, CardSubtitle } from 'reactstrap'
 import Img from 'gatsby-image'
 import { slugify } from '../util/utilityFunctions'
 import authors from '../util/authors'
-import { DiscussionEmbed } from 'disqus-react'
+//import { DiscussionEmbed } from 'disqus-react'
 
 const SinglePost = ({ data, pageContext, location }) => {
   const post = data.markdownRemark.frontmatter
@@ -14,12 +14,12 @@ const SinglePost = ({ data, pageContext, location }) => {
 
   const baseUrl = 'https://gatsbytutorial.co.uk/'
 
-  const disqusShortname = 'https-gatsbytutorial-co-uk'
-  const disqusConfig = {
-    identifier: data.markdownRemark.id,
-    title: post.title,
-    url: baseUrl + pageContext.slug,
-  }
+  //const disqusShortname = 'https-gatsbytutorial-co-uk'
+  //const disqusConfig = {
+  //  identifier: data.markdownRemark.id,
+  //  title: post.title,
+  //  url: baseUrl + pageContext.slug,
+  //}
 
   return (
     <Layout
@@ -50,7 +50,7 @@ const SinglePost = ({ data, pageContext, location }) => {
             {post.tags.map(tag => (
               <li key={tag}>
                 <Link to={`/tag/${slugify(tag)}`}>
-                  <Badge color="primary">{tag}</Badge>
+                  <Badge color="info">{tag}</Badge>
                 </Link>
               </li>
             ))}
@@ -122,7 +122,6 @@ const SinglePost = ({ data, pageContext, location }) => {
           </li>
         </ul>
       </div>
-      <DiscussionEmbed shortname={disqusShortname} config={disqusConfig} />
     </Layout>
   )
 }

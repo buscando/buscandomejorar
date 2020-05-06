@@ -3,6 +3,8 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import Post from '../components/Post'
 
+import { CardDeck } from 'reactstrap'
+
 const tagPosts = ({ data, pageContext }) => {
   const { tag } = pageContext
   const { totalCount } = data.allMarkdownRemark
@@ -12,6 +14,7 @@ const tagPosts = ({ data, pageContext }) => {
 
   return (
     <Layout pageTitle={pageHeader}>
+      <CardDeck style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <Post
           key={node.id}
@@ -24,6 +27,7 @@ const tagPosts = ({ data, pageContext }) => {
           fluid={node.frontmatter.image.childImageSharp.fluid}
         />
       ))}
+      </CardDeck>
     </Layout>
   )
 }

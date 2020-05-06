@@ -1,12 +1,13 @@
 .card {
-  margin-bottom: 30px;
+  margin-bottom: 30px;  
 }
 ul.post-tags {
+  list-style-type: none;
+  margin: 0;
   padding: 0;
-  display: inline-flex;
-  list-style: none;
+  overflow: hidden;
 
   li {
-    margin-right: 10px;
+    float: left;
   }
 }
