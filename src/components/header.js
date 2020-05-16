@@ -27,7 +27,7 @@ class Header extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div expand="sm">
       <Backgroundimg        
         fileName="header_bg.jpg" 
         bgTitle="Buscando Mejorar"

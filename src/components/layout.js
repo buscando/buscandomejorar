@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import Footer from './Footer'
 import Sidebar from './Sidebar'
-import Topbar from './Topbar'
+//import Topbar from './Topbar'
 import Tag from './Tags'
 import '../styles/index.scss'
 
@@ -31,10 +31,7 @@ const Layout = ({ authorImageFluid, children, pageTitle, postAuthor, location}) 
           integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
           crossOrigin="anonymous"
         />
-        <Header siteTitle={data.site.siteMetadata.title} />   
-        <div>   
-           {location && ( <Topbar/>) }         
-        </div>    
+        <Header siteTitle={data.site.siteMetadata.title} />    
         <br></br>                   
         <div style={{marginRight: '10%', marginLeft: '10%'}}>                     
           <Row>

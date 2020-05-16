@@ -11,9 +11,9 @@ const IndexPage = () => {
   const postsPerPage = 4
   let numberOfPages
   return (   
-    <div >
+    <div>
       <Layout location ="/"> 
-        <CardDeck style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>             
+                    
         <StaticQuery
           query={indexQuery}
           render={data => {
@@ -22,7 +22,9 @@ const IndexPage = () => {
             )
             return (       
               <>
-                {data.allMarkdownRemark.edges.map(({ node }) => (               
+                {data.allMarkdownRemark.edges.map(({ node }) => ( 
+                  
+                  <CardDeck style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>             
                   <Post
                     key={node.id}
                     slug={node.fields.slug}
@@ -31,7 +33,9 @@ const IndexPage = () => {
                     date={node.frontmatter.date}
                     fluid={node.frontmatter.image.childImageSharp.fluid}
                     tags={node.frontmatter.tags}
-                  />                  
+                  />   
+                  </CardDeck>      
+                           
                 ))}
                 <div className="container" style={{display: 'flex', justifyContent: 'flex-end'}}>
                 <PaginationLinks currentPage={1} numberOfPages={numberOfPages} />
@@ -40,7 +44,7 @@ const IndexPage = () => {
             )
           }}
         />
-        </CardDeck>
+        
       </Layout>
     </div>
   )

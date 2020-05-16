@@ -35,7 +35,7 @@ export default function({ fileName, bgTitle, bgSubtitle }) {
     }
 
     return (
-            <BackgroundImage
+            <BackgroundImage 
                 fluid={image.childImageSharp.fluid}
                 style={{
                     height: `450px`,
