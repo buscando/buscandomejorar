@@ -12,10 +12,10 @@ const postList = props => {
 
   return (
     <Layout pageTitle={`Page: ${currentPage}`}>
-      <CardDeck  style={{display: 'flex', flexDirection: 'row' }}>
+      
       {posts.map(({ node }) => (
-        <>
-        <p>TEST</p>        
+        <>    
+        <CardDeck  style={{display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
         <Post
           key={node.id}
           slug={node.fields.slug}
@@ -26,9 +26,10 @@ const postList = props => {
           tags={node.frontmatter.tags}
           fluid={node.frontmatter.image.childImageSharp.fluid}
         />
+        </CardDeck>
         </>
       ))}
-      </CardDeck>
+      
       <PaginationLinks
         currentPage={currentPage}
         numberOfPages={numberOfPages}

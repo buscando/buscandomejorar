@@ -35,22 +35,23 @@ class Header extends React.Component {
       >      
       </Backgroundimg>   
    
-      <Navbar expand="sm" >
-          <div class="navbar navbar-expand-lg navbar-light bg-light" style={{marginRight: '10%', marginLeft: '10%'}}>
-            <NavbarToggler onClick={this.toggle} />
-            <Collapse isOpen={this.state.isOpen} navbar>
-              <Nav>
-                <NavItem>
-                  <NavLink href="/">INICIO</NavLink>
-                </NavItem>   
-                <NavItem>
-                  <NavLink href="/about">ACERCA DE MI</NavLink>
-                </NavItem>                             
-              </Nav>
-            </Collapse>
-          </div>
-      </Navbar>   
-  
+        <div className="container" id="content"> 
+          <Navbar expand="sm" >
+              <div class="navbar navbar-expand-lg navbar-light bg-light" >
+                <NavbarToggler onClick={this.toggle} />
+                <Collapse isOpen={this.state.isOpen} navbar>
+                  <Nav>
+                    <NavItem>
+                      <NavLink href="/">INICIO</NavLink>
+                    </NavItem>   
+                    <NavItem>
+                      <NavLink href="/about">ACERCA DE MI</NavLink>
+                    </NavItem>                             
+                  </Nav>
+                </Collapse>
+              </div>
+          </Navbar>   
+        </div>
       </div>
     )
   }

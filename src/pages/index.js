@@ -5,8 +5,6 @@ import { graphql, StaticQuery } from 'gatsby'
 import Post from '../components/Post'
 import PaginationLinks from '../components/PaginationLinks'
 
-import { CardDeck } from 'reactstrap'
-
 const IndexPage = () => { 
   const postsPerPage = 4
   let numberOfPages
@@ -22,22 +20,20 @@ const IndexPage = () => {
             )
             return (       
               <>
-                {data.allMarkdownRemark.edges.map(({ node }) => ( 
-                  
-                  <CardDeck style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>             
-                  <Post
-                    key={node.id}
-                    slug={node.fields.slug}
-                    author={node.frontmatter.author}
-                    body={node.excerpt}
-                    date={node.frontmatter.date}
-                    fluid={node.frontmatter.image.childImageSharp.fluid}
-                    tags={node.frontmatter.tags}
-                  />   
-                  </CardDeck>      
-                           
-                ))}
-                <div className="container" style={{display: 'flex', justifyContent: 'flex-end'}}>
+                <div class="card-deck">                      
+                    {data.allMarkdownRemark.edges.map(({ node }) => (                                                 
+                      <Post
+                        key={node.id}
+                        slug={node.fields.slug}
+                        author={node.frontmatter.author}
+                        body={node.excerpt}
+                        date={node.frontmatter.date}
+                        fluid={node.frontmatter.image.childImageSharp.fluid}
+                        tags={node.frontmatter.tags}
+                      />                              
+                    ))}
+                </div>
+                <div>
                 <PaginationLinks currentPage={1} numberOfPages={numberOfPages} />
                 </div>
               </>

@@ -33,12 +33,12 @@ const Layout = ({ authorImageFluid, children, pageTitle, postAuthor, location}) 
         />
         <Header siteTitle={data.site.siteMetadata.title} />    
         <br></br>                   
-        <div style={{marginRight: '10%', marginLeft: '10%'}}>                     
+        <div className="container" id="content" >                     
           <Row>
-            <Col md="8">
+            <Col sm="8">
                 {children}
             </Col>
-            <Col md="4">
+            <Col sm="4">
               <Sidebar author={postAuthor} authorFluid={authorImageFluid} />
               <Tag/>
             </Col>

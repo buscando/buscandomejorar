@@ -14,7 +14,7 @@ const tagPosts = ({ data, pageContext }) => {
 
   return (
     <Layout pageTitle={pageHeader}>
-      <CardDeck style={{display: 'flex', flexDirection: 'row', justifyContent: 'center'}}>
+      <CardDeck>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <Post
           key={node.id}
