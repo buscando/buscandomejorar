@@ -7,12 +7,13 @@ import Img from 'gatsby-image'
 import { slugify } from '../util/utilityFunctions'
 import authors from '../util/authors'
 //import { DiscussionEmbed } from 'disqus-react'
+//import { CommentSection } from "gatsby-theme-comments"
 
 const SinglePost = ({ data, pageContext, location }) => {
   const post = data.markdownRemark.frontmatter
   const author = authors.find(x => x.name === post.author)
 
-  const baseUrl = 'https://gatsbytutorial.co.uk/'
+  const baseUrl = 'https://buscandomejorar.com'
 
   //const disqusShortname = 'https-gatsbytutorial-co-uk'
   //const disqusConfig = {
@@ -35,6 +36,7 @@ const SinglePost = ({ data, pageContext, location }) => {
         url={baseUrl}
         pathname={location.pathname}
       />
+      <main>
       <Card>
         <Img
           className="card-image-top"
@@ -57,71 +59,10 @@ const SinglePost = ({ data, pageContext, location }) => {
           </ul>
         </CardBody>
       </Card>
-      <h3 className="text-center">Share this post</h3>
-      <div className="text-center social-share-links">
-        <ul>
-          <li>
-            <a
-              href={
-                'https://www.facebook.com/sharer/sharer.php?u=' +
-                baseUrl +
-                pageContext.slug
-              }
-              className="facebook"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-facebook-f fa-2x" />
-            </a>
-          </li>
-          <li>
-            <a
-              href={
-                'https://twitter.com/share?url=' +
-                baseUrl +
-                pageContext.slug +
-                '&text=' +
-                post.title +
-                '&via' +
-                'twitterHandle'
-              }
-              className="twitter"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-twitter fa-2x" />
-            </a>
-          </li>
-          <li>
-            <a
-              href={
-                'https://plus.google.com/share?url=' +
-                baseUrl +
-                pageContext.slug
-              }
-              className="google"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-google fa-2x" />
-            </a>
-          </li>
-          <li>
-            <a
-              href={
-                'https://www.linkedin.com/shareArticle?url=' +
-                baseUrl +
-                pageContext.slug
-              }
-              className="linkedin"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-linkedin fa-2x" />
-            </a>
-          </li>
-        </ul>
-      </div>
+      </main>
+
+      {/*<CommentSection id={slugify(pageContext.slug)} /> */}
+      
     </Layout>
   )
 }

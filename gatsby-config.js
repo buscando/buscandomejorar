@@ -1,3 +1,5 @@
+require("dotenv").config()
+
 module.exports = {
   siteMetadata: {
     title: `Buscando Mejorar`,
@@ -23,8 +25,24 @@ module.exports = {
         path: `${__dirname}/src/pages`,
       },
     },
+    {
+      resolve: `gatsby-plugin-mailchimp`,
+      options: {
+        endpoint: process.env.GATSBY_MAILCHIMP_ENDPOINT, 
+      },
+    },    
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: "gatsby-plugin-firebase",
+      options: {
+        features: {
+          firestore: true,
+        },     
+      },
+    },   
+    'gatsby-theme-comments',
+    'gatsby-theme-comments-ui',
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {

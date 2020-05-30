@@ -4,7 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Header from './header'
 import Footer from './Footer'
 import Sidebar from './Sidebar'
-//import Topbar from './Topbar'
+import Subscription from './Subscription'
 import Tag from './Tags'
 import '../styles/index.scss'
 
@@ -40,6 +40,7 @@ const Layout = ({ authorImageFluid, children, pageTitle, postAuthor, location}) 
             </Col>
             <Col sm="4">
               <Sidebar author={postAuthor} authorFluid={authorImageFluid} />
+              <Subscription/>
               <Tag/>
             </Col>
           </Row>

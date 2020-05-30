@@ -11,6 +11,7 @@ import Img from 'gatsby-image'
 const Sidebar = ({ author, authorFluid }) => (
   <div>
     {author && (
+      <>      
       <Card>
         <Img className="card-image-top" fluid={authorFluid} />
         <CardBody>
@@ -34,6 +35,7 @@ const Sidebar = ({ author, authorFluid }) => (
           </div>
         </CardBody>
       </Card>
+      </>
     )}   
   </div>
 )
