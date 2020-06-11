@@ -11,9 +11,10 @@ const postList = props => {
   const { currentPage, numberOfPages } = props.pageContext
 
   return (
+    <div>
     <Layout pageTitle={`Page: ${currentPage}`}>
-      
-      <CardDeck  style={{display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
+      <>
+      <div class="card-deck" col-lg-6 col-md-2 col-sm-12>
           {posts.map(({ node }) => (
             <Post
               key={node.id}
@@ -26,14 +27,13 @@ const postList = props => {
               fluid={node.frontmatter.image.childImageSharp.fluid}
             />
           ))}
-
-      </CardDeck>      
-      
-      <PaginationLinks
-        currentPage={currentPage}
-        numberOfPages={numberOfPages}
-      />
+      </div>      
+      <div>
+      <PaginationLinks currentPage={currentPage} numberOfPages={numberOfPages} />
+      </div>
+      </>
     </Layout>
+    </div>
   )
 }
 

@@ -12,7 +12,7 @@ import Img from 'gatsby-image'
 import { slugify } from '../util/utilityFunctions'
 
 const Post = ({ title, author, slug, date, body, fluid, tags }) => (
-  <Card col-lg-6 col-md-2 col-sm-12 style={{minWidth: '20rem', marginBottom: '30px'}}>
+  <Card col-lg-6 col-md-2 col-sm-12 style={{ minWidth: '20rem', marginBottom: '30px'}}>
     <Link to={slug}>    
     <Img className="card-image-top" fluid={fluid}  /> 
     </Link>

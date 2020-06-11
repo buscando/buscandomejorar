@@ -10,7 +10,7 @@ const IndexPage = () => {
   let numberOfPages
   return (   
     <div>
-      <Layout location ="/" > 
+      <Layout > 
                     
         <StaticQuery
           query={indexQuery}
