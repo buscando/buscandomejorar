@@ -6,11 +6,11 @@ import Post from '../components/Post'
 import PaginationLinks from '../components/PaginationLinks'
 
 const IndexPage = () => { 
-  const postsPerPage = 4
+  const postsPerPage = 8
   let numberOfPages
   return (   
     <div>
-      <Layout location ="/"> 
+      <Layout location ="/" > 
                     
         <StaticQuery
           query={indexQuery}
@@ -50,7 +50,7 @@ const indexQuery = graphql`
   query indexQuery {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 4
+      limit: 8
     ) {
       totalCount
       edges {

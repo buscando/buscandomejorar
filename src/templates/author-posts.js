@@ -13,7 +13,7 @@ const authorPosts = ({ data, pageContext }) => {
     <Layout
       pageTitle={pageHeader}
       postAuthor={author}
-      authorImageFluid={data.file.childImageSharp.fluid}
+      //authorImageFluid={data.file.childImageSharp.fluid}
     >
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <Post
@@ -32,7 +32,7 @@ const authorPosts = ({ data, pageContext }) => {
 }
 
 export const authorQuery = graphql`
-  query($authorName: String!, $imageUrl: String!) {
+  query($authorName: String!) {
     allMarkdownRemark(
       sort: { fields: [frontmatter___date], order: DESC }
       filter: { frontmatter: { author: { eq: $authorName } } }
@@ -61,13 +61,7 @@ export const authorQuery = graphql`
         }
       }
     }
-    file(relativePath: { eq: $imageUrl }) {
-      childImageSharp {
-        fluid(maxWidth: 300) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
+
   }
 `
 

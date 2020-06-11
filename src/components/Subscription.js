@@ -80,7 +80,7 @@ import {
                             placeholder="email"
                             name="email"
                         />
-                        <label for="email" id="message" style={{color: 'green'}}></label>
+                        <label htmlFor="email" id="message" style={{color: 'green'}}></label>
                         </FormGroup>
                         <button className="btn btn-outline-success text-uppercase" type="submit">
                             Suscribete

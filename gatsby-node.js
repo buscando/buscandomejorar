@@ -34,7 +34,7 @@ exports.createPages = async ({ actions, graphql }) => {
           node {
             frontmatter {
               author
-              tags
+              tags             
             }
             fields {
               slug
@@ -66,7 +66,7 @@ exports.createPages = async ({ actions, graphql }) => {
   })
 
   // Create posts pagination pages
-  const postsPerPage = 4
+  const postsPerPage = 8
   const numberOfPages = Math.ceil(posts.length / postsPerPage)
 
   Array.from({ length: numberOfPages }).forEach((_, index) => {

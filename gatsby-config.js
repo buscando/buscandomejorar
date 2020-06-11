@@ -4,13 +4,29 @@ module.exports = {
   siteMetadata: {
     title: `Buscando Mejorar`,
     description: `Blog.`,
-    author: `@gatsbyjs`,
+    author: `@buscando`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
     'gatsby-plugin-sass',
     'gatsby-plugin-catch-links',
-    'gatsby-transformer-remark',
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          `gatsby-remark-relative-images`,
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 800,
+              linkImagesToOriginal: false,
+              //sizeByPixelDensity: false,
+              showCaptions: true
+            }
+          },
+        ]
+      }
+    },    
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -37,12 +53,12 @@ module.exports = {
       resolve: "gatsby-plugin-firebase",
       options: {
         features: {
-          firestore: true,
+          firestore: true,     
         },     
       },
     },   
-    'gatsby-theme-comments',
-    'gatsby-theme-comments-ui',
+    //'gatsby-theme-comments',
+    //'gatsby-theme-comments-ui',
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {

@@ -13,22 +13,21 @@ const postList = props => {
   return (
     <Layout pageTitle={`Page: ${currentPage}`}>
       
-      {posts.map(({ node }) => (
-        <>    
-        <CardDeck  style={{display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
-        <Post
-          key={node.id}
-          slug={node.fields.slug}
-          title={node.frontmatter.title}
-          author={node.frontmatter.author}
-          date={node.frontmatter.date}
-          body={node.excerpt}
-          tags={node.frontmatter.tags}
-          fluid={node.frontmatter.image.childImageSharp.fluid}
-        />
-        </CardDeck>
-        </>
-      ))}
+      <CardDeck  style={{display: 'flex', flexDirection: 'row', justifyContent: 'center' }}>
+          {posts.map(({ node }) => (
+            <Post
+              key={node.id}
+              slug={node.fields.slug}
+              title={node.frontmatter.title}
+              author={node.frontmatter.author}
+              date={node.frontmatter.date}
+              body={node.excerpt}
+              tags={node.frontmatter.tags}
+              fluid={node.frontmatter.image.childImageSharp.fluid}
+            />
+          ))}
+
+      </CardDeck>      
       
       <PaginationLinks
         currentPage={currentPage}
