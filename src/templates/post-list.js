@@ -4,7 +4,7 @@ import Post from '../components/Post'
 import { graphql } from 'gatsby'
 import PaginationLinks from '../components/PaginationLinks'
 
-import { CardDeck } from 'reactstrap'
+//import { CardDeck } from 'reactstrap'
 
 const postList = props => {
   const posts = props.data.allMarkdownRemark.edges

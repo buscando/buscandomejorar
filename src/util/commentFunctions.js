@@ -1,13 +1,12 @@
-// Hoohs
 import React from "react"
-import firebase from "gatsby-plugin-firebase"
+import { useFirebase, FirebaseContext } from "gatsby-plugin-firebase"
 
 export function useComments(id) {
   const [loading, setLoading] = React.useState(false)
   const [error, setError] = React.useState(null)
   const [comments, setComments] = React.useState([])
 
-  React.useEffect(() => {
+  useFirebase(firebase => {
     setLoading(true)
 
     firebase
@@ -42,7 +41,7 @@ export function useCommentCount(id) {
   const [error, setError] = React.useState(null)
   const [count, setCount] = React.useState(0)
 
-  React.useEffect(() => {
+  useFirebase(firebase => {
     setLoading(true)
     firebase
       .firestore()
@@ -65,7 +64,7 @@ export function useCommentCount(id) {
 }
 
 export function useAddComment() {
-  //const firebase = React.useContext(FirebaseContext)
+  const firebase = React.useContext(FirebaseContext)
   const [loading, setLoading] = React.useState(false)
   const [error, setError] = React.useState(null)
 

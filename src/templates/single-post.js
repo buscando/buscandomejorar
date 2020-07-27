@@ -8,6 +8,8 @@ import { slugify } from '../util/utilityFunctions'
 import authors from '../util/authors'
 //import { DiscussionEmbed } from 'disqus-react'
 //import { CommentSection } from "gatsby-theme-comments"
+import CommentSection from '../components/CommentSection'
+
 
 const SinglePost = ({ data, pageContext, location }) => {
   const post = data.markdownRemark.frontmatter
@@ -57,12 +59,11 @@ const SinglePost = ({ data, pageContext, location }) => {
                 </Link>
               </li>
             ))}
-          </ul>
-        </CardBody>
+          </ul>          
+        </CardBody>           
       </Card>      
-
-      {/*<CommentSection id={slugify(pageContext.slug)} /> */}         
-      
+            
+      <CommentSection id={slugify(pageContext.slug)} />
     </Layout>
     </>
   )
