@@ -1,4 +1,3 @@
-
 ---
 title: 'segundo cerebro y porque es conveniente tener uno'
 date: 2020-01-01 07:00:00
