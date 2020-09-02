@@ -1,5 +1,5 @@
 ---
-title: 'Segundo cerebro'
+title: 'SEGUNDO CEREBRO'
 date: 2020-09-01 07:00:00
 author: 'Buscando Mejorar'
 image: ../../images/second_brain.jpg
