@@ -1,6 +1,6 @@
 ---
 title: 'segundo cerebro y porque es conveniente tener uno'
-date: 2020-01-01 07:00:00
+date: 2020-09-01 07:00:00
 author: 'Buscando Mejorar'
 image: ../../images/second_brain.jpg
 tags:
