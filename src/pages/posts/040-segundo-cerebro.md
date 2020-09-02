@@ -1,5 +1,5 @@
 ---
-title: 'segundo cerebro y porque es conveniente tener uno'
+title: 'Segundo cerebro'
 date: 2020-09-01 07:00:00
 author: 'Buscando Mejorar'
 image: ../../images/second_brain.jpg
