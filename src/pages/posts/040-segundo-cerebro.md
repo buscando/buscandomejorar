@@ -7,6 +7,7 @@ tags:
  - PRODUCTIVIDAD
  - ORGANIZACION
 ---
+# Segundo cerebro
 
 <H3>Que es el segundo cerebro?</H3>
 
