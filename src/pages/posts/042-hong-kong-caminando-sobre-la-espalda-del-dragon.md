@@ -6,7 +6,7 @@ date: 2020-10-19 07:00:00
 
 author: 'Buscando Mejorar'
 
-image: ../../images/dragon-back.jpg
+image: ../../images/dragon-back .jpg
 
 tags:
 
@@ -24,7 +24,7 @@ La forma mas barata y fácil de ir es usando transporte publico, hay que tomar e
 
 Ahi hay que tomar el bus #9 que va a Cape D' Aguilar and Shek O, aquí les pongo la foto, esta es la parada inicial, verán muchas personas que harán la caminata también.
 
-![Bus #9](../../images/dragon-back.jpg)
+![Bus #9](../../images/dragon-bus.jpg)
 
 Hay que bajarse en Tei Wan Station (la parada numero 11) aquí es el inicio de la caminata, todo esta bien señalizado.
 
