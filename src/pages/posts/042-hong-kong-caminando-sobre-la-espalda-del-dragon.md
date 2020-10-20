@@ -1,22 +1,15 @@
 ---
-
 title: 'HONG KONG - CAMINANDO SOBRE LA ESPALDA DEL DRAGON'
-
 date: 2020-10-19 07:00:00
-
 author: 'Buscando Mejorar'
-
 image: ../../images/dragon-back.jpg
-
 tags:
-
-- VIAJES
-
+  - VIAJES
 ---
 
 # Hong Kong - Caminata de la espalda del Dragón
 
-Este año no se puede viajar, tengo mas tiempo en casa, he decidido combinar esos 2 factores y poner al día mis post de viajes, hoy voy a compartir una caminata con mi hija que hicimos en 2019 en Hong Kong, se llama Dragon's Back o "Espalda del Dragón", es bastante conocida y segura se puede hacer en un par de horas.
+Este año no se puede viajar, tengo mas tiempo en casa, he decidido combinar esos 2 factores y poner al día mis post de viajes pasados, hoy voy a compartir una caminata con mi hija que hicimos en Hong Kong el año pasado, se llama Dragon's Back o "Espalda del Dragón", es bastante conocida, segura y se puede hacer en un par de horas.
 
 ## Como llegar a la caminata
 
@@ -24,7 +17,7 @@ La forma mas barata y fácil de ir es usando transporte publico, hay que tomar e
 
 Ahi hay que tomar el bus #9 que va a Cape D' Aguilar and Shek O, aquí les pongo la foto, esta es la parada inicial, verán muchas personas que harán la caminata también.
 
-![Bus #9](../../images/dragon-bus.jpg)
+../../images/dragon-bus.jpg
 
 Hay que bajarse en Tei Wan Station (la parada numero 11) aquí es el inicio de la caminata, todo esta bien señalizado.
 
@@ -48,8 +41,8 @@ Al bajar del bus comienza la caminata, hay baños públicos al inicio, todo esta
 
 
 
-![Flor](../../images/dragon-flor.jpg)
-![mariposa](../../images/dragon-mariposa.jpg) 
+../../images/dragon-flor.jpg
+../../images/dragon-mariposa.jpg
 
 
 Al inicio se sube escaleras hasta llegar a um mirador "View of Red Hill and Stanley Main Beach" a la izquierda
