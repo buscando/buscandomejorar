@@ -6,7 +6,7 @@ date: 2020-10-19 07:00:00
 
 author: 'Buscando Mejorar'
 
-image: ../../images/dragon-back .jpg
+image: ../../images/dragon-back.jpg
 
 tags:
 
@@ -48,9 +48,9 @@ Al bajar del bus comienza la caminata, hay baños públicos al inicio, todo esta
 
 
 
-|![Flor](../../images/dragon-flor.jpg)| ![mariposa](../../images/dragon-mariposa.jpg) |
+![Flor](../../images/dragon-flor.jpg)
+![mariposa](../../images/dragon-mariposa.jpg) 
 
-|--|--|
 
 Al inicio se sube escaleras hasta llegar a um mirador "View of Red Hill and Stanley Main Beach" a la izquierda
 
