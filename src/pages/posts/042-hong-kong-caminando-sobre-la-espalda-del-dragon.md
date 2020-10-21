@@ -37,7 +37,7 @@ Debo reconocer que no camino mucho, esta caminata no es muy larga pero si tiene 
 
 Al bajar del bus comienza la caminata, hay baños públicos al inicio, todo esta bien señalizado, mucha vegetación y mariposas
 
-<td style="width:50%"><img src="../../images/dragon-mariposa.jpg"></td>
+<img src="../../images/dragon-mariposa.jpg">
 
 Al inicio se sube escaleras hasta llegar a um mirador "View of Red Hill and Stanley Main Beach" a la izquierda
 
