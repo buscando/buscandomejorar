@@ -56,8 +56,8 @@ Sigues caminando y llegas a la verdadera razón del nombre de la caminata porque
 <table>
 <tbody> 
 <tr>
-<td style="width:50%"><img src="../../images/dragon-golf.jpg" ></td>
-<td style="width:50%"><img src="../../images/dragon-turtle.jpg"></td>
+<td><img src="../../images/dragon-golf.jpg" ></td>
+<td><img src="../../images/dragon-turtle.jpg"></td>
 </tr>
 </tbody>
 </table>
