@@ -9,7 +9,7 @@ tags:
 
 # Hong Kong - Caminata de la espalda del Dragón
 
-Este año no se puede viajar, tengo mas tiempo en casa, he decidido combinar esos 2 factores y poner al día mis post de viajes pasados, hoy voy a compartir una caminata con mi hija que hicimos en Hong Kong el año pasado, se llama Dragon's Back o "Espalda del Dragón", es bastante conocida, segura y se puede hacer en un par de horas.
+Este año no se puede viajar y tengo mas tiempo en casa, he decidido combinar esos 2 factores y publicar mis post de viajes pasados, hoy voy a compartir una caminata que hice con mi hija en Hong Kong el año pasado, se llama Dragon's Back o "Espalda del Dragón", es bastante conocida, segura y se puede hacer en un par de horas.
 
 ## Como llegar a la caminata
 
@@ -17,11 +17,9 @@ La forma mas barata y fácil de ir es usando transporte publico, hay que tomar e
 
 Ahi hay que tomar el bus #9 que va a Cape D' Aguilar and Shek O, aquí les pongo la foto, esta es la parada inicial, verán muchas personas que harán la caminata también.
 
-../../images/dragon-bus.jpg
+<img src="../../images/dragon-bus.jpg">
 
 Hay que bajarse en Tei Wan Station (la parada numero 11) aquí es el inicio de la caminata, todo esta bien señalizado.
-
-embebed map
 
 ## Como hacer la caminata
 
@@ -39,34 +37,35 @@ Debo reconocer que no camino mucho, esta caminata no es muy larga pero si tiene 
 
 Al bajar del bus comienza la caminata, hay baños públicos al inicio, todo esta bien señalizado, mucha vegetación y mariposas
 
-
-
-../../images/dragon-flor.jpg
-../../images/dragon-mariposa.jpg
-
+<td style="width:50%"><img src="../../images/dragon-mariposa.jpg"></td>
 
 Al inicio se sube escaleras hasta llegar a um mirador "View of Red Hill and Stanley Main Beach" a la izquierda
 
-dragon-redhill.jpg
+<img src="../../images/dragon-redhill.jpg" >
 
 ## Shek O Peninsula
 
 Luego de seguir subiendo se llega a hermosas vistas de Shek o Peninsula a la izquierda o Este, incluyendo la pequeña isla : Island Bay
 
-dragon-sheko.jpg
+<img src="../../images/dragon-sheko.jpg" >
 
 ## Espalda del Dragón
 
-Sigues caminando y llegas a la verdadera razón del nombre de la caminata estas sobre una montaña con ondulantes caminos que son la espalda del dragon, la vista es realmente hermosa a ambos lados, hay un campo de golf y una isla que parece una tortuga gigante, un mirador muy bonito
+Sigues caminando y llegas a la verdadera razón del nombre de la caminata porque estas sobre una montaña con ondulantes caminos que son la espalda del dragon, la vista es realmente hermosa a ambos lados, hay un campo de golf y una isla que parece una tortuga gigante, un mirador muy bonito
 
-|dragon-golf.jpg | dragon-turtle.jpg |
-
-|--|--|
+<table>
+<tbody> 
+<tr>
+<td style="width:50%"><img src="../../images/dragon-golf.jpg" ></td>
+<td style="width:50%"><img src="../../images/dragon-turtle.jpg"></td>
+</tr>
+</tbody>
+</table>
 
 ## Fin de la caminata
 
-En este punto puedes regresar al lugar inicial y tomar el mismo bus de regreso al frente de donde nos dejó, la otra opción es continuar hasta una playa llamada : Big Wave
+En este punto puedes regresar al lugar inicial y tomar el mismo bus de regreso al frente de donde nos dejó, será mas fácil porque es de bajada, la otra opción es continuar hasta una playa llamada : Big Wave
 
-Nosotras decidimos no continuar con la playa salir a la pista y continuar con nuestro día en Hong Kong, porque parecía que hiba a llover. Regresamos a la estacio
+Nosotras decidimos no continuar con la playa salir a la pista y continuar con nuestro día en Hong Kong.
 
-Les aconsejo esta caminata si tienen una mañana libre, es seguro para hacerlo sola, este día hice la caminata con mi hija por momentos hiso
+Les aconsejo esta caminata si tienen un par de horas libres en Hong Kong, algo diferente y con hermosas vistas, adicionalmente es seguro para hacerlo sola, este día hice la caminata con mi hija y nos gustó mucho.
