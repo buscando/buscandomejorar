@@ -53,14 +53,9 @@ Luego de seguir subiendo se llega a hermosas vistas de Shek o Peninsula a la izq
 
 Sigues caminando y llegas a la verdadera razón del nombre de la caminata porque estas sobre una montaña con ondulantes caminos que son la espalda del dragon, la vista es realmente hermosa a ambos lados, hay un campo de golf y una isla que parece una tortuga gigante, un mirador muy bonito
 
-<table>
-<tbody> 
-<tr>
-<td><img src="../../images/dragon-golf.jpg" ></td>
-<td><img src="../../images/dragon-turtle.jpg"></td>
-</tr>
-</tbody>
-</table>
+
+<img src="../../images/dragon-golf.jpg" >
+<img src="../../images/dragon-turtle.jpg">
 
 ## Fin de la caminata
 
