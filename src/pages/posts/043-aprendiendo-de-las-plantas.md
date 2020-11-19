@@ -20,7 +20,7 @@ Lei el libro de Summer Rayne Oakes, "How to make plants to love you" Como hacer 
 Ella dice que uno solo puede amar lo que conoce, conocer a una planta es como conocer a una persona lo que mas escuches de ella, mas la entenderas, de donde proviene del tropico ? le gusta la humedad, le gusta la sombra, el sol fuerte? entonces para tener una relacion con tus plantas es necesario una observacion mas activa   
 
 ## El ejemplo de Singapore 
-Necesitamos de la naturaleza para nuestra salud mental y fisica ,en Singapore hicieron el esfuerzo a nivel del gobierno de poner mas plantas en la ciudad, la razón es la temperatura en areas contruidas la temperatura aumenta 7 grados mas comparando con areas rurales, por eso la gente esta tan interada en areas verdes y en espacios con sombra en lugar de tener sistemas de enfriado artificial.
+Necesitamos de la naturaleza para nuestra salud mental y fisica ,en Singapore hicieron el esfuerzo a nivel del gobierno de poner mas plantas en la ciudad, la razón es la temperatura en areas contruidas la temperatura aumenta 7 grados mas comparando con areas rurales, por eso la gente esta tan interesada en areas verdes y en espacios con sombra en lugar de tener sistemas de enfriado artificial.
 
 Con este post no quiero decir que soy una experta en plantas y sus beneficios, estoy aprendiendo cada dia a cuidarlas mejor, les ire contando como va mi nuevo hobbie en futuros posts.
 
