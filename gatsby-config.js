@@ -60,7 +60,7 @@ module.exports = {
     //'gatsby-theme-comments',
     //'gatsby-theme-comments-ui',
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
           {
