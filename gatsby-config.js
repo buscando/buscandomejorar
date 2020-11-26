@@ -60,17 +60,6 @@ module.exports = {
     //'gatsby-theme-comments',
     //'gatsby-theme-comments-ui',
     {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          {
-            family: 'Arizonia',
-            variants: [`400`, `700`]
-          },
-        ],
-      },
-    },       
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
