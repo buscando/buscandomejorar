@@ -7,7 +7,7 @@ tags:
   - VIAJES
 ---
 
-# Hong Kong - Caminata de la espalda del Dragón
+# Hong Kong Caminata de la espalda del Dragón
 
 Este año no se puede viajar y tengo mas tiempo en casa, he decidido combinar esos 2 factores y publicar mis post de viajes pasados, hoy voy a compartir una caminata que hice con mi hija en Hong Kong el año pasado, se llama Dragon's Back o "Espalda del Dragón", es bastante conocida, segura y se puede hacer en un par de horas.
 
