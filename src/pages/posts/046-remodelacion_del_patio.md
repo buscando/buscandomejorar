@@ -1,6 +1,6 @@
 ---
 title: 'REMODELACION DE NUESTRO PATIO'
-date: 2021-01-06 07:00:00
+date: 2021-01-21 07:00:00
 author: 'Buscando Mejorar'
 image: ../../images/patio_sala.jpg
 tags:
