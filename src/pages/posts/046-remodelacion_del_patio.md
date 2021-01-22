@@ -26,8 +26,7 @@ Mis esposo limpio todo y comenzo la transformación, a grandes rasgos los pasos 
 
 El patio no es muy grande pero es perfecto para cada zona, zona de sala, de comedor, de herramientas, de ejercicio, de almacenamiento 
 Ahora que me siento a escribir este post solo puedo admirar lo bonito que es estar aqui afuera.
-
--   ![Una vista de como esta quedando cada area](../../images/patio_colage.jpg)
+![](../../images/patio_colage.jpg)
 
 ## Ideas para el futuro
 
