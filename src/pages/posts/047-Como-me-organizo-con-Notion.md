@@ -34,7 +34,9 @@ Esto lo saque de SMART goals, un acronimo para acordarse de estas 5 caracteristi
  
 ## Proyecto
 Cada meta puede tener mas de un proyecto en este caso o ejemplo la meta solo tiene un proyecto, pero como ven en este cuadro al ser un proyecto tengo notas y comprar, hay proyectos que requieren comprar algo y notas e ideas que puedo agregar al proyecto como links.
+
+![](../../images/Tareas.JPG)
+
 ## Tareas
 Son los pasos para conseguir mi meta, continuando con este ejemplo es escribir los 3 posts y publicarlos, con eso habre cumplido mi meta de Enero.
-![](../../images/Tareas.JPG)
-Este es mi primer mes de intento, vemos como me va ... al final del año veremos :)
+Este es mi primer mes de intento para mi meta de publicar 3 veces por mes, al final del año sabremos si lograre la meta :)
