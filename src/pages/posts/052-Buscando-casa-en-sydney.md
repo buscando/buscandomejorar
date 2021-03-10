@@ -18,7 +18,7 @@ Quiero perro, quiero gato y mi esposo siempre estubo con la idea de casa desde h
 
 Australia se esta recuperando del covid-19 ya no hay casos por mas de 50 dias consecutivos y la vacuna esta comenzando a distribuirse, se puede decir que la economía esta en recuperación aunque en otros paises esto aun no sucede, todo esto esta haciendo que el mercado de casas se ha incentivado y los precios de las casa ha subido un monton aqui en Sydney.
 
-Que queremos de una casa
+### Que queremos de una casa
 
 1. Casa pequeña, nosotros somos una familia pequeña, asi que requerimos 2 habitaciones 1 estudio como minimo, espero 2 baños. Me he dado cuenta que para mi estabilidad emocional y familiar, mi esposo tiene que tener un baño al que yo no entre a limpiar.
 2. Mas jardin, yo quiero tener mi jardin de vegetales, pero no se si los podre mantener, en mi balcón que es mi experimento me he dado cuenta que no es tarea sencilla, pero si me da mucha ilusión tener un jardin pequeño de vegetales.
@@ -28,4 +28,4 @@ Que queremos de una casa
 
 Hemos hido ver muchas casas en los ultimos días que mi sentidos estan un poco sobrecargados, no es fácil tomar una desicion, aunque el precio ya decide por nosotros en la mayoria de los casos ... bonita pero fuera de nuestro presupuesto, y si esta en nuestro presupuesto como la que acabamos de ver hace un rato esta tan mal diseñada que no vale la pena.
 
-Bueno seguiremos buscando, ire escribiendo sobre nuestra busqueda de casa en la situación actual.
+Bueno seguiremos buscando, iré escribiendo sobre nuestra busqueda de casa en la situación actual.
