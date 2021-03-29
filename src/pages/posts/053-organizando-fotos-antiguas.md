@@ -14,9 +14,7 @@ Me gusta tomar fotos, muuuchas fotos; tengo buena cantidad, claro ahora todo es 
 
 Bueno en resumidas cuentas tengo buena cantidad de fotos impresas, y no me quiero deshacer de ellas, las tenia guardadas en una caja de navidad y pesaba tanto que casi nunca la bajaba para ver mis fotos, hasta esta semana que encontre este organizador de fotos en kmart (una tienda australiana), era lo que tanto he estado esperando para organizar mis fotos.
 
-```
 ![](../../images/053-Inst-Organizando-fotos-antiguas.jpg)
-```
 
 Lo bueno es que puedo dividir las fotos en bloques una caja completa es mi viaje a Japón en 2002, el inicio de camaras digitales y querer imprimir todo
 
