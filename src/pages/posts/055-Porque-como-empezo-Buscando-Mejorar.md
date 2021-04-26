@@ -1,8 +1,8 @@
 ---
-title: 'Porque y como empezó Buscando Mejorar '
+title: 'Porque y como empezo Buscando Mejorar '
 date: 2021-04-26 07:00:00
 author: 'Buscando Mejorar'
-image: ../../images/055-Porque-como-empezó-Buscando-Mejorar.jpg
+image: ../../images/055-Porque-como-empezo-Buscando-Mejorar.jpg
 tags:
  - PRODUCTIVIDAD
 ---
