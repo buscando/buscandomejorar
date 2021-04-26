@@ -4,7 +4,7 @@ Hoy les contaré un poco de los inicios del blog de [buscandomejorar.com](http:/
 
 Empezé el blog en el 2009, en una plataforma llamada [www.blog4change.com](http://www.blog4change.com) ahi podrán ver mis posts antiguos, en esa epoca andaba un poco molesta con la vida, jejeje asi que me notaran un poco mas molesta, pero debo reconocer mi escritura era mejor y causaba mas controversia.
 
-![](../../images/055-blog4change.JPG)
+![](../../images/055-blog4change.jpg)
 
 A la fecha mi post de amor de pareja vs amor de familia es todaavia el número uno en esa plataforma, luego de ahi me movi a http://buscando-mejorar.blogspot.com/ aun sigue ahi tambien, vaya todo verde en ese momento estaba haciendo mi cocina y el fondo de mi cocina tabien es ese mismo verde, al parecer tenia un camote por el verde.
 ![](../../images/055-blogspot.jpg)
