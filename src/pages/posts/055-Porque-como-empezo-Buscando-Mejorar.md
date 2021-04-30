@@ -10,7 +10,7 @@ tags:
 Hoy les contaré un poco de los inicios del blog de [buscandomejorar.com](http://buscandomejorar.com) y de porque aún lo mantengo vivo.
 ### Los origenes de Buscando mejorar
 
-Empezé el blog en el 2009, en una plataforma llamada [www.blog4change.com](http://www.blog4change.com) ahi podrán ver mis posts antiguos, en esa epoca andaba un poco molesta con la vida, jejeje asi que me notaran un poco mas molesta, pero debo reconocer mi escritura era mejor y causaba mas controversia.
+Empezé el blog en el 2009, en una plataforma llamada [www.blog4change.org](http://www.blog4change.org) ahi podrán ver mis posts antiguos, en esa epoca andaba un poco molesta con la vida, jejeje asi que me notaran un poco mas molesta, pero debo reconocer mi escritura era mejor y causaba mas controversia.
 
 ![](../../images/055-blog4change.jpg)
 
