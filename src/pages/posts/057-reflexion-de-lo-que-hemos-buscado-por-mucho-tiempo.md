@@ -2,7 +2,7 @@
 title: 'Reflexion de lo que hemos buscado por tanto tiempo'
 date: 2021-04-30 07:00:00
 author: 'Buscando Mejorar'
-image: ../../images/057-Inst-reflexion hemos buscado por tanto tiempo.jpg
+image: ../../images/057-- Reflexion de lo que hemos esperado por tanto tiempo.jpg
 tags:
  - RELACIONES
 ---
